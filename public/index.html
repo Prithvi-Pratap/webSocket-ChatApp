@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Talkie</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    </head>
+    <body>
+        <div class="chat">
+            <h1>chatting</h1>
+            <div class="sender">
+                <input type="text" id="message" placeholder="Type a message..."></input>
+                <button id="send">send</button>
+            </div>
+            <div class="messages">
+                <ul id="messages"></ul>
+            </div>
+        </div>
+        <script src="client.js"></script>
+    </body>
+</html>
